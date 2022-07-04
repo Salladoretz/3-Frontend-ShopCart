@@ -7,6 +7,10 @@
     gap: 1rem;
 }
 
+.cart_empty {
+    text-align: center;
+}
+
 .cart__product {
     display: flex;
     align-items: center;

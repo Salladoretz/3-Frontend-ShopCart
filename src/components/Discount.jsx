@@ -23,7 +23,7 @@ const Discount = () => {
             <input
                 className={css.discount__input}
                 type="number"
-                placeholder='0'
+                placeholder='Скидка'
                 onChange={event => setDiscountRate(event.target.value)}
                 value={discountRate}
             />
@@ -38,7 +38,7 @@ const Discount = () => {
                 type='button'
                 className={css.discount__button}
                 onClick={() => clickClear()}>
-                Сбросить скидку
+                Убрать скидки
             </button>
         </fieldset>
     )

@@ -15,6 +15,9 @@ const InputCart = () => {
     const add = () => {
         let newProduct = { id: +code, name: product, price: +price }
         dispatch(addProduct(newProduct))
+        setCode('')
+        setProduct('')
+        setPrice('')
     }
 
     return (
