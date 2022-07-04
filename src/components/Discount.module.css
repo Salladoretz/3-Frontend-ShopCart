@@ -1,0 +1,21 @@
+.discount {
+    display: flex;
+    margin-top: 2rem;
+    border: thick double #8de4f0;
+    padding: 1rem;
+    border-radius: 10px;
+    min-width: 360px;
+    gap: 1rem;
+    justify-content: space-evenly;
+}
+
+.discount__input {
+    max-width: 80px;
+}
+
+.discount__button {
+    padding: 1rem;
+    color: white;
+    background: #0890a1;
+    border-radius: 10px;
+}

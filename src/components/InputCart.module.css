@@ -1,0 +1,39 @@
+.inputCart {
+    display: flex;
+    margin-top: 2rem;
+    border: thick double #8de4f0;
+    padding: 1rem;
+    border-radius: 10px;
+    min-width: 360px;
+    gap: 1rem;
+}
+
+input {
+    padding: 1rem;
+    border: 1px solid #8de4f0;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.inputCart__code {
+    max-width: 100px;
+}
+
+.inputCart__product {
+    max-width: 200px;
+}
+
+.inputCart__price {
+    max-width: 100px;
+}
+
+.inputCart__button {
+    padding: 1rem;
+    color: white;
+    background: #0890a1;
+    border-radius: 10px;
+}
+
+button:disabled {
+    background: rgb(142, 163, 177);
+}

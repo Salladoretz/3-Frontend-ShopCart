@@ -1,0 +1,56 @@
+.cart {
+    margin-top: 2rem;
+    border: thick double #8de4f0;
+    padding: 1rem;
+    border-radius: 10px;
+    min-width: 360px;
+    gap: 1rem;
+}
+
+.cart__product {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    min-height: 40px;
+}
+
+.cart__productId {
+    min-width: 50px;
+    text-align: center;
+}
+
+.cart__productName {
+    min-width: 200px;
+}
+
+.cart__productPrice {
+    min-width: 50px;
+    text-align: right;
+}
+
+.cart__productPrice_striked {
+    min-width: 50px;
+    text-align: right;
+    text-decoration: line-through red 3px;
+}
+
+.cart__productDiscount {
+    min-width: 50px;
+    text-align: right;
+}
+
+.cart__productDiscount_inv {
+    min-width: 50px;
+    text-align: right;
+    color: white;
+}
+
+.cart__button {
+    background-image: url('../assets/img/Cancel.png');
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+}
