@@ -37,7 +37,7 @@
 .cart__productPrice_striked {
     min-width: 50px;
     text-align: right;
-    text-decoration: line-through red 3px;
+    text-decoration: line-through red 2px;
 }
 
 .cart__productDiscount {
@@ -57,4 +57,5 @@
     width: 20px;
     height: 20px;
     background-color: white;
+    box-shadow: none;
 }

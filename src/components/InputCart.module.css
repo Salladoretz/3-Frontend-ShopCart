@@ -1,5 +1,6 @@
 .inputCart {
     display: flex;
+    flex-direction: column;
     margin-top: 2rem;
     border: thick double #8de4f0;
     padding: 1rem;
@@ -36,4 +37,11 @@ input {
 
 button:disabled {
     background: rgb(142, 163, 177);
+    box-shadow: none;
+}
+
+p {
+    text-align: center;
+    color: red;
+    font-size: 10px;
 }

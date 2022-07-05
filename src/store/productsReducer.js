@@ -40,7 +40,7 @@ export const productSlice = createSlice({
 
 export const { addProduct, deleteProduct, setDiscount } = productSlice.actions
 
-export const productCount = state => state.products.products.length;
+export const productCount = state => state.products.products.length
 export const productTotal = state => Math.floor(state.products.products.reduce((acc, product) => acc + product.price, 0)).toLocaleString('ru')
 export const productTotalDiscount = state => Math.floor(state.products.products.reduce((acc, product) => acc + product.price, 0) * (100 - state.products.discount) / 100).toLocaleString('ru')
 

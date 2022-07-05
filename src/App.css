@@ -8,6 +8,11 @@
     color: #0890a1;
 }
 
+button {
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+
 input::-webkit-input-placeholder {
     text-indent: 0px;
     transition: text-indent 0.3s ease;
