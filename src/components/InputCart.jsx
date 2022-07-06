@@ -28,7 +28,7 @@ const InputCart = () => {
     return (
         <fieldset className={css.inputCart}>
             <legend>Добавление товара</legend>
-            <div>
+            <div className={css.inputCart__container}>
                 <input
                     className={css.inputCart__code}
                     type="number"
@@ -57,7 +57,7 @@ const InputCart = () => {
                     className={css.inputCart__button}
                 >Добавить</button>
             </div>
-            {checkId ? <p>Такой код товара уже существует!</p> : ''}
+            {checkId ? <p className={css.inputCart__double}>Такой код товара уже существует!</p> : ''}
         </fieldset>
     )
 }

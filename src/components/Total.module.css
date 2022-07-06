@@ -7,6 +7,9 @@
     min-width: 360px;
     gap: 1rem;
     justify-content: space-evenly;
+}
+
+.total__item {
     text-align: center;
 }
 

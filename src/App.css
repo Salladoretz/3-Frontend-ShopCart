@@ -8,6 +8,10 @@
     color: #0890a1;
 }
 
+legend {
+    padding: 0rem 1rem 0rem 1rem;
+}
+
 button {
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }

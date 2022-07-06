@@ -13,11 +13,11 @@ const Total = () => {
     return (
         <fieldset className={css.total}>
             <legend>Итого</legend>
-            <div>
+            <div className={css.total__item}>
                 <p>Товаров:</p>
                 <h2>{count}</h2>
             </div>
-            <div>
+            <div className={css.total__item}>
                 <p>Сумма:</p>
                 <h2
                     className={discount > 0 ? css.total_striked : ''}
@@ -25,7 +25,7 @@ const Total = () => {
                     {total}
                 </h2>
             </div>
-            <div className={discount === 0 ? css.total_erase : ''}>
+            <div className={discount === 0 ? css.total_erase : css.total__item}>
                 <p>Сумма со скидкой:</p>
                 <h2>{totalDiscount}</h2>
             </div>

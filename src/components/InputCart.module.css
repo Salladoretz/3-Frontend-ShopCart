@@ -9,6 +9,11 @@
     gap: 1rem;
 }
 
+.inputCart__container {
+    display: flex;
+    gap: 1rem;
+}
+
 input {
     padding: 1rem;
     border: 1px solid #8de4f0;
@@ -40,7 +45,7 @@ button:disabled {
     box-shadow: none;
 }
 
-p {
+.inputCart__double {
     text-align: center;
     color: red;
     font-size: 10px;
